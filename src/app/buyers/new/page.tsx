@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import { buyerCreate } from "@/lib/validators/buyer";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Save, User, Phone, Mail, MapPin, Home, IndianRupee } from "lucide-react";
+import { ArrowLeft, Save, User, Phone, Mail, MapPin, Home, IndianRupee, Star } from "lucide-react";
 
 export default function CreateBuyer() {
   const router = useRouter();
